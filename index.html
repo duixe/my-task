@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>myTask &mdash; task for today</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="left">
+                <div class="container">
+                    <div class="container__logo">
+                        <img src="/img/logo.png" alt="myTask">
+                    </div>
+                    <div class="container__form">
+                        <div class="container__form--input">
+                            <input type="text" id="input" placeholder="Enter Your Task">
+                        </div>
+                        <button type="button" id="addTodo" class="btn btn--primary">ADD TASK</button>
+                        <button type="button" id="removeTodo" class="btn btn--secondary">REMOVE TASK</button>
+                    </div>
+                    <div class="container__list">
+                        <ul class="container__list-list">
+                            <li class="mycheck"><input type="checkbox" id="check"><span>Go to Gym</span></li>
+                            <li class="mycheck"><input type="checkbox" id="check" checked><span>Record Youtube Videos</span></li>
+                            <li class="mycheck"><input type="checkbox" id="check"><span>Go to Gym</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="showcase">
+                    <div class="showcase__content">
+                        <img src="/img/task1.svg" alt="task">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
